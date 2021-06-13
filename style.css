@@ -1,4 +1,4 @@
-@font-face {
+.@font-face {
     font-family: 'uni_sans_heavyregular';
     src: url('fonts/fontfabric_-_uni-sans-heavy-webfont.woff2') format('woff2'),
          url('fonts/fontfabric_-_uni-sans-heavy-webfont.woff') format('woff');
@@ -19,7 +19,9 @@
 .h1 {
   color: #FFFFFF;
   font-size:14px;
-  font-family: Uni Sans Heavy, Helvetica, sans-serif;
+  font-family: 'CustomFont', Uni Sans Heavy, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 line-height: 20px;
 text-align: center;
 
