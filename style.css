@@ -1,4 +1,4 @@
-.@font-face {
+@font-face {
     font-family: 'uni_sans_heavyregular';
     src: url('fonts/fontfabric_-_uni-sans-heavy-webfont.woff2') format('woff2'),
          url('fonts/fontfabric_-_uni-sans-heavy-webfont.woff') format('woff');
@@ -16,9 +16,9 @@
         width: 15%; ;
 }
 
-.h1 {
+h1 {
   color: #FFFFFF;
-  font-size:14px;
+  font-size:15px;
   font-family: 'CustomFont', Uni Sans Heavy, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -27,7 +27,7 @@ text-align: center;
 
 }
 
-.h2 {
+h2 {
   color: #FFFFFF;
   font-size:13px;
   font-family: 'CustomFont', Uni Sans Heavy, Helvetica, sans-serif;
@@ -35,10 +35,22 @@ text-align: center;
   font-style: normal;
   line-height: 20px;
   text-align: center;
+  !important
+}
+
+h3 {
+  color: #FFFFFF;
+  font-size:12px;
+  font-family: 'CustomFont', Uni Sans Regular, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  !important
 }
 
 
-.p {
+p {
         color: #FFFFFF;
         font-family: Uni Sans Regular;
         font-size: 12px;
@@ -68,10 +80,6 @@ text-align: center;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        font-color: #FFFFFF!important;
-        font-family: 'CustomFont', Uni Sans Heavy;
-        
-
 }
 
 .body {
@@ -80,20 +88,15 @@ text-align: center;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-        /*  background-image: url("images/background.png");
-        font-family: Uni Sans Heavy, Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        line-height: 20px;
-        color: #FFFFFF;*/ 
 }
 
-.html { 
+/*.html { 
   background: url(images/background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 .video {
   /* override other styles to make responsive */
