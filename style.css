@@ -27,11 +27,11 @@
 
 h1 {
   color: #FFFFFF;
-  font-size:15px;
-  font-family: 'CustomFont', Uni Sans Heavy, Helvetica, sans-serif;
+  font-size:18px;
+  font-family: 'uni_sans_heavyregular', Uni Sans Heavy, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
-line-height: 20px;
+line-height: 25px;
 text-align: center;
 
 }
@@ -39,7 +39,7 @@ text-align: center;
 h2 {
   color: #FFFFFF;
   font-size:13px;
-  font-family: 'CustomFont', Uni Sans Heavy, Helvetica, sans-serif;
+  font-family: 'uni_sans_regularregular', Uni Sans Heavy, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 20px;
@@ -70,7 +70,8 @@ p {
       }
 
 .social-icons {
-        padding: .5em;
+       /* padding: .5em;*/
+       padding-top: 10px;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
