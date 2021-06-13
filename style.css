@@ -39,7 +39,7 @@ text-align: center;
 h2 {
   color: #FFFFFF;
   font-size:13px;
-  font-family: 'uni_sans_regularregular', Uni Sans Heavy, Helvetica, sans-serif;
+  font-family: 'uni_sans_heavyregular', Uni Sans Heavy, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 20px;
@@ -49,7 +49,7 @@ h2 {
 h3 {
   color: #FFFFFF;
   font-size:12px;
-  font-family: 'CustomFont', Uni Sans Regular, Helvetica, sans-serif;
+  font-family: 'uni_sans_regularregular', Uni Sans Regular, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 20px;
@@ -59,7 +59,7 @@ h3 {
 
 p {
         color: #FFFFFF;
-        font-family: Uni Sans Regular;
+        font-family: uni_sans_regularregular;
         font-size: 12px;
         text-align: center;
 }
