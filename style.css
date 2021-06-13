@@ -13,7 +13,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 10%; ;
+        width: 15%; ;
 }
 
 .h1 {
@@ -27,6 +27,15 @@ text-align: center;
 
 }
 
+.h2 {
+  color: #FFFFFF;
+  font-size:13px;
+  font-family: 'CustomFont', Uni Sans Heavy, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+}
 
 
 .p {
@@ -59,12 +68,9 @@ text-align: center;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        .h2
-font-color: #FFFFFF;
-  font-size:13px;
-  font-family: Uni Sans Heavy, Helvetica, sans-serif;
-line-height: 20px;
-text-align: center;
+        font-color: #FFFFFF!important;
+        font-family: 'CustomFont', Uni Sans Heavy;
+        
 
 }
 
